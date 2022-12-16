@@ -9,13 +9,26 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-firebase/app": "^16.4.6",
+    "@react-navigation/native": "^6.1.0",
+    "@react-navigation/native-stack": "^6.9.5",
+    "@react-navigation/stack": "^6.3.8",
+    "@reduxjs/toolkit": "^1.9.1",
     "expo": "~47.0.8",
     "expo-status-bar": "~1.4.2",
+    "firebase": "^9.15.0",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-paper": "^5.0.1",
+    "react-native-safe-area-context": "4.4.1",
+    "react-native-screens": "~3.18.0",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.0",
+    "undefined": "firebase/firestore"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.19.3",
+    "@redux-devtools/core": "^3.13.1"
   },
   "private": true
 }
